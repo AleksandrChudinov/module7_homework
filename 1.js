@@ -1,7 +1,7 @@
 function printInfo() {
   console.log(`Name: ${this.name}, Age: ${this.age}.`);
 }
-let person = {
+const person = {
   name: "Gena",
   age: 54,
 };
