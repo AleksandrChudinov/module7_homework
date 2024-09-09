@@ -1,14 +1,19 @@
 function calculate(a, b, operator) {
-  if (operator === "+") {
-    return a + b;
-  } else if (operator === "-") {
-    return a - b;
-  } else if (operator === "*") {
-    return a * b;
-  } else if (operator === "/") {
-    return a / b;
-  } else {
-    return "Неверное значение";
+  switch (operator) {
+    case "+":
+      return a + b;
+      break;
+    case "-":
+      return a - b;
+      break;
+    case "*":
+      return a * b;
+      break;
+    case "/":
+      return a / b;
+      break;
+    default:
+      return "Неверное значение";
   }
 }
 const obj = {
